@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+:root{
+    background-color:#020403;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    transition: transform 0.5s;
+    padding: 0;
+    margin: 0;
+    padding: 2rem;
+}
+
+.menu1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    transition: transform 0.5s;
+}
+
+.menu1 li {
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    transition: transform 0.5s;
+}
+.menu1 a {
+    color: #FFFFFF;
+    display: inline-block;
+    justify-content: center;
+    font-size: 18px;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+
+.home{
+    color: #FFFFFF;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    transition: transform 0.5s;
+}
+
+.perfil{
+    margin: auto;
+    display: block;
+    width: 300px;
+    height: 350px;
+    padding-bottom: 2rem;
+}
+
+i{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.about{
+    padding-top: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 30rem;
+}
+
+.about p{
+    padding-top: 6rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}
+
+.icons_r{
+    border:10px solid #adadad;
+    border-radius:100%;
+    width: 80px;
+    height: 80px;
+    background-color:#ADADAD ;
+}
+.skills{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.app {
+    display: inline-block;
+    padding-top: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 90px;
+
+}
+
+.app:nth-child(1) {
+    width: 230px;
+    height: 210px;
+}
+
+.app:nth-child(2) {
+    width: 230px;
+    height: 210px;
+}
+
+.app:nth-child(3) {
+    width: 230px;
+    height: 210px;
+}
+
+.app:nth-child(4) {
+    width: 230px;
+    height: 210px;
+}
+
+.Experiencia{
+    color:#FFFFFF;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 0%;
+    padding-bottom: 30rem;
+}
+.Experiencia h1{
+    text-align: center;
+    padding-bottom: 5rem;
+
+}
+
+.Experiencia h3{
+    text-align: center;
+}
+
+.Experiencia h4{
+    text-align: center;
+}
+
+hr{
+    opacity: 50%;
+    padding-top: 0%;
+    line-height: 50%;
+}
+
+.Portafolio{
+    padding-top: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 15rem;
+}
+
+.portafolio_imagenes{
+    padding-top: 90px;
+}
+
+.Portafolio span{
+    padding: 50px;
+}
+
+.contacto{
+    padding-top: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 8rem;
+}
+
+.contacto .tipos{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto .tipos .icon{
+    padding: 9rem;
+}
+
+.tipos{
+    padding: 50px;
+}
+
+
+.textfinal{
+    padding-top: 90px;
+    color: #ADADAD;
+    text-align: center;
+}
+
+
+.icono-menu{
+    margin: 15px 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+    vertical-align: top;
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Estilos para el contenedor del Menú */
+.cont-menu{
+    background-color: #020403;
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+
+}
+
+/* Estilos por agregar en JavaScript */
+.active{
+    transform: translate(-600px);
+}
+
+/* Estilos para el listado del Menú */
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.cont-menu ul li a{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: rgb(42,42,42);
+}
+
+
+@media (min-width:700px){
+   .menu{
+    display: none;
+    }
+    .menu2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        gap:1rem;
+        padding-left: 400px;
+        padding-right: 100px;
+        margin-bottom: 25px;
+        font-weight:400 ;
+        position:fixed;
+        width: 100%;
+        height: 100px;
+        cursor:pointer;
+        margin-top: 2rem;
+    }
+    .icon_menu{
+        display: none;
+    }
+    .container_portafolio{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_imagenes_portafolio{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    h2{
+        font-size: 45px;
+    }
+    .container_fecha_trabajo{
+        min-width: 700px;
+        max-width: 700px;
+    }
+    .container_delcontainer{
+        display: flex;
+        gap:14rem;
+    }
+    .elements{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:5rem;
+    }
+    .container_about_me{
+        min-width: 700px;
+    }
+    .container_redes{
+        gap:6rem;   
+    }
+    .subtitulo{
+        font-size: 70px;
+        font-weight:500;
+        
+    }
+    .titulo h2{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .container_profile{
+        max-width: 700px;
+        margin-top: 8rem;
+    }
+    .mobile_profile{
+        display: none;
+    }
+    .desktop_profile{
+        display: block;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .contact{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px white;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    top: 690px;
+    right: -30px;
+}
+
+.circle1, .circle4{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border:solid 1px white;
+    display: grid;
+    place-content: center;
+}
+.circle2, .circle5  {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:solid 1px white;
+    right: auto;
+    display: inline;
+
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:solid 1px white;
+    display: grid;
+    place-content: center;
+    position: absolute;
+    bottom: 1230px;
+    left: -30px;
+}
